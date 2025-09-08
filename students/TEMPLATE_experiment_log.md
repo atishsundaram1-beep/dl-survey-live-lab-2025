@@ -1,4 +1,4 @@
-# Experiment Log (Your Name)
+# Experiment Log (Atish Sundaram)
 
 For each experiment you run this semester:
 1. Copy the template block below.
@@ -9,7 +9,7 @@ For each experiment you run this semester:
 
 ## Experiment Template
 
-### Run #: 
+### Run #: We ran our first code
 ### Date:
 ### Goal / Question:
 (What are you testing or curious about?)
