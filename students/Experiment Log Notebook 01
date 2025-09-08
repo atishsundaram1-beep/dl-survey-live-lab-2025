@@ -1,13 +1,26 @@
-Run #: We ran our first code
-Date:
+Running Random Forrest experiements through notebook
+Date: 9/8/2025
 Goal / Question:
-(What are you testing or curious about?)
+Testing what happens when you change different hyperparameters in a random forrest model.(n estimators, max_depth, min_samples_split)
 
 Setup:
-(What data, model, hyperparameters, preprocessing did you use?)
+Using the income inequality dataset, RF
 
 Results:
 (Key metrics: accuracy, precision/recall, confusion matrix, etc.)
+
+n_estimators: 50= 0.88 precision, 0.92 recall, 0.9 f1score, accuracy = 0.83
+100=0.88 precision, 0.92 recall, 0.9 f1-score accuracy = 0.84
+200= 0.88 precision, 0.93 recall, 0.90 f1-score, accuracy = 0.85
+
+
+Experiment 2 (HW): using GridSearch vs RandomizedSearch
+
+Best params (GridSearch): {'max_depth': 20, 'n_estimators': 100}
+Best score (GridSearch): 0.863
+Best params (RandomizedSearch): {'max_depth': 20, 'min_samples_split': 4, 'n_estimators': 121}
+Best score (RandomizedSearch): 0.864
+
 
 Reflection:
 (What worked? What didn’t? What would you try next?)
